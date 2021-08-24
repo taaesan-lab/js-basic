@@ -1,6 +1,6 @@
 const getCount = require('../reduce-count-obj');
 
-test('Count obj', () => {
+it('Count obj equals 2', () => {
 
     objs = [
         { x: 1, y: 1 },
@@ -10,4 +10,4 @@ test('Count obj', () => {
         { x: 4, y: 5 },
     ]
     expect(getCount(objs)).toBe(2)
-})
+});
