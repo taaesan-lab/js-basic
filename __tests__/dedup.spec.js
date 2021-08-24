@@ -1,6 +1,5 @@
 const dedupNumbers = require('../reduce-dedup');
 
-
 it('Count obj equals 0', () => {
 
     objs = [
