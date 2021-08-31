@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="css/binaryCalculator.css" type="text/css"> -->
+        <style>
+            body{
+                width: 33%;
+            }
+            .res {
+                /* width: 33%; */
+                background-color: lightgrey;
+                border: solid;
+                height: 48px;
+                font-size: 20px;
+            }
+
+            .buttonContainer {
+                /* width: 33%; */
+                width: 100%;
+            }
+
+            .bottonOperator{
+                background-color: black;
+                color: red;
+            }
+
+            .bottonSet1{
+                background-color: limegreen;
+                color: brown;
+            }
+
+            .bottonSet2{
+                background-color: darkgreen;
+                color: white;
+            }
+    
+            .buttonContainer>.buttonClass {
+                width: 25%;
+                height: 36px;
+                font-size: 18px;
+                float: left;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="res" class="res"></div>
+        <div id="btns" class="buttonContainer">
+            <button id="btn0" class="buttonClass bottonSet1">0</button>
+            <button id="btn1" class="buttonClass bottonSet1">1</button>
+            <button id="btnClear" class="buttonClass bottonSet2">C</button>
+            <button id="btnEql" class="buttonClass bottonSet2">=</button>
+            <button id="btnSum" class="buttonClass bottonOperator">+</button>
+            <button id="btnSub" class="buttonClass bottonOperator">-</button>
+            <button id="btnMul" class="buttonClass bottonOperator">*</button>
+            <button id="btnDiv" class="buttonClass bottonOperator">/</button>
+        </div>
+    	<script src="js/binaryCalculator.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+
+###
+GET https://jsonmock.hackerrank.com/api/football_matches
+content-type: application/json
+
+###
+GET https://jsonmock.hackerrank.com/api/football_matches?year=2011&team1=Barcelona&page=1
+content-type: application/json
+
+###
+# Draws 
+GET https://jsonmock.hackerrank.com/api/football_matches?year=2011&team1goals=2&team2goals=2
+
+
+###
+GET https://jsonmock.hackerrank.com/api/football_competitions?year=2011&name=La+Liga
+
+
+###
+GET https://jsonmock.hackerrank.com/api/football_matches?year=2011&name=La+Liga&team1=Real+Madrid
+
